@@ -34,7 +34,7 @@
             
    ### 4. Testing with Postman
             
-            https://app.getpostman.com/join-team?invite_code=11dfeb0a09decf1d9d37fec6a4509f2d
+            Please refer to 'README.md' placed in 'Authentication' folder
 
 ## References
 
