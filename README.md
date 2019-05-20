@@ -1,9 +1,10 @@
-# NetBook_Spring_Kea Project
+# NetBook Spring Kea Project
 
 ## Team:
 ### Petya   pety0016@stud.kea.dk
 ### Jeffrey jeff0221@stud.kea.dk
-### Eric    
+### Eric 
+### Gregory grze0203@stud.kea.dk   
 ## Description
 ### Spring Microservices Project Created For 'Development of Large Systems' class in Kobenhavns Erhvervsakademi May 2019
 ### Please see architecture diagram in 'Docs' folder
