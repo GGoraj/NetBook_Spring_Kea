@@ -1,5 +1,9 @@
 ## NetBook Spring Kea Project
 
+### Sources: 
+    https://github.com/GGoraj/NetBook_Spring_Kea
+    https://github.com/petya-/netbook-reviews-api.git
+
 ### Team:
 - Petya   pety0016@stud.kea.dk
 - Jeffrey jeff0221@stud.kea.dk
