@@ -6,7 +6,11 @@
         
            enter database: psql
            
-           create db:      "CREATE DATABASE authdb;"
+           enter:           CREATE DATABASE authdb;
+           
+           enter:           \c authdb;         
+           
+           run application: GOTO STEP 3, continue here:
            
            enter:           INSERT INTO roles(name) VALUES('ROLE_USER');
                             INSERT INTO roles(name) VALUES('ROLE_PM');
@@ -30,7 +34,10 @@
             steps:
                 terminal: "mvn clean install", or "mvn install"
                 terminal: "mvn spring-boot:run"
-            
+        
+        Go back to step 1 and create user roles
+        
+        
 #### 4. Testing with Postman
 - POST: localhost:8762/api/auth/signup
                                        body/JSON: {
@@ -40,16 +47,20 @@
                                                      "role":["user"],
                                                      "password":"password"
                                                    }
+
 - POST: localhost:8762/api/auth/signin
                                        body/JSON: {
                                                   	"username":"greg2",
                                                   	"password":"password"
                                                   }
+
 - POST: localhost:8762/hello/hello2
                                        headers: "Authorization": Bearer 'token received in signin request'
 
+
 - GET: localhost:8762/content/book/1  
                                        headers: "Authorization": Bearer 'token received in signin request'
+
 
 - GET: localhost:8762/content/allbooks
                                        headers: "Authorization": Bearer 'token received in signin request'

@@ -14,7 +14,7 @@
            
            quit database:  "\q"
            
-           go to '/dataset' folder and edit 'script.sql' - change the relative path to all csv files
+           go to 'content-service/dataset' folder and edit 'script.sql' - change the relative path to all csv files
            
            in terminal (stay in '/dataset' folder) execute: "psql -d netbooktest -f script.sql"
                
