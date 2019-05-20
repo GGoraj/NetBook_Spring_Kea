@@ -29,5 +29,5 @@
                      Github: https://github.com/petya-/netbook-reviews-api.git
 
 
-## Each micro-service contains step-by-step guide in 'README.md' file.
+#### each micro-service contains step-by-step guide in 'README.md' file.
 
